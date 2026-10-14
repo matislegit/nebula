@@ -3,7 +3,7 @@
   "id": "nebula",
   "version": "${version}",
   "name": "Nebula",
-  "description": "Client-side module GUI (default key: \\). First module: Block ESP.",
+  "description": "Client-side module GUI with a Block ESP module.",
   "authors": ["You"],
   "environment": "client",
   "entrypoints": {
