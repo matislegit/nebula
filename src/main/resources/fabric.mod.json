@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "nebula",
+  "version": "${version}",
+  "name": "Nebula",
+  "description": "Client-side module GUI with a Block ESP module.",
+  "authors": ["You"],
+  "environment": "client",
+  "mixins": ["nebula.mixins.json"],
+  "entrypoints": {
+    "client": ["com.example.nebula.NebulaClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
