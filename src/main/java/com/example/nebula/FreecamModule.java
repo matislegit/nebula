@@ -154,9 +154,9 @@ public final class FreecamModule implements NebulaModule {
         KeyMapping km = NebulaClient.FREECAM_KEY;
         Options options = Minecraft.getInstance().options;
         if (keyCode == GLFW.GLFW_KEY_ESCAPE) {
-            options.setKey(km, InputConstants.UNKNOWN);                          // ESC clears the bind
+            km.setKey(InputConstants.UNKNOWN);                          // ESC clears the bind
         } else {
-            options.setKey(km, InputConstants.Type.KEYSYM.getOrCreate(keyCode));
+               km.setKey(InputConstants.Type.KEYSYM.getOrCreate(keyCode));
         }
         KeyMapping.resetMapping();
         options.save();
