@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "com.example.nebula.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AbstractClientPlayerMixin",
+    "CameraMixin",
+    "EntityMixin",
+    "LevelRendererMixin",
+    "LivingEntityRendererMixin",
+    "LivingEntityMixin",
+    "PlayerSkinRenderCacheMixin",
+    "StringDecomposerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
